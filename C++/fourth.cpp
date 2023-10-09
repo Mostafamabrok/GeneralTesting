@@ -10,10 +10,10 @@ int main() {
     string myText = "El momento del text es: ";
 
     cout << myText << VariableTestNumber<< endl;
-    int x;
+    string x;
     cin >> x;
 
-    cout << "Your number is:" << x;
+    cout << "Your string is:" << x;
 
     return 0;
 }
