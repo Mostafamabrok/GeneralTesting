@@ -1,20 +1,19 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
 
 int main() {
 
-    int VariableTestNumber = 14;
-    cout << VariableTestNumber << endl;
+    int FirstNumber;
+    std::cout << "Enter a Number: ";
+    std::cin >> FirstNumber;
 
-    string myText = "El momento del text es: ";
+    int SecondNumber;
+    std::cout << "Enter another Number: ";
+    std::cin >> SecondNumber;
 
-    cout << myText << VariableTestNumber<< endl;
-    string x;
-    cin >> x;
-
-    cout << "Your string is:" << x;
+    int sum = FirstNumber + SecondNumber;
+    std::cout << "The sum of the Numbers is: " << sum;
 
     return 0;
 }
