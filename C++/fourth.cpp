@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    
+
     int VariableTestNumber = 14;
     cout << VariableTestNumber << endl;
 
@@ -12,6 +12,8 @@ int main() {
     cout << myText << VariableTestNumber<< endl;
     int x;
     cin >> x;
+
+    cout << "number is:" << x;
 
     return 0;
 }
