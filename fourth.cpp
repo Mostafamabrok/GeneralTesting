@@ -16,7 +16,9 @@ int main() {
 
     string myText = "El momento del text es: ";
 
-    cout << myText << VariableTestNumber;
+    cout << myText << VariableTestNumber<< endl;
+    int x;
+    cin >> x;
 
     return 0;
 }
