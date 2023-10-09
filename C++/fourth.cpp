@@ -13,7 +13,7 @@ int main() {
     int x;
     cin >> x;
 
-    cout << "number is:" << x;
+    cout << "Your number is:" << x;
 
     return 0;
 }
