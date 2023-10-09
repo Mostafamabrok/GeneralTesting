@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 
-
-int main() {
+void Calculator(){
 
     int FirstNumber;
     std::cout << "Enter a Number: ";
@@ -14,6 +13,15 @@ int main() {
 
     int sum = FirstNumber + SecondNumber;
     std::cout << "The sum of the Numbers is: " << sum;
+
+}
+
+
+int main() {
+
+    std::cout << "Welcome to the fourth C++ project of all time!\n";
+
+    Calculator();
 
     return 0;
 }
