@@ -12,7 +12,7 @@ void Calculator(){
     std::cin >> SecondNumber;
 
     int sum = FirstNumber + SecondNumber;
-    std::cout << "The sum of the Numbers is: " << sum;
+    std::cout << "The sum of the Numbers is: " << sum << "\n\n";
 
 }
 
