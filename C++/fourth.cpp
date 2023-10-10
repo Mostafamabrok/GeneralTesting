@@ -7,7 +7,7 @@ void calculator_add(){
     float SecondNumber;
     float sum;
 
-    std::cout << "Enter the first number you would like to add:";
+    std::cout << "\nEnter the first number you would like to add:";
     std::cin  >> FirstNumber;
 
     std::cout << "\nEnter the second number you would like to add:";
@@ -20,6 +20,20 @@ void calculator_add(){
 }
 
 void calculator_subtract(){
+
+    float FirstNumber;
+    float SecondNumber;
+    float difference;
+
+    std::cout << "\nEnter the first number you would like to subtract:";
+    std::cin  >> FirstNumber;
+
+    std::cout << "\nEnter the second number you would like to subtract:";
+    std::cin  >> SecondNumber;
+
+    difference = FirstNumber - SecondNumber;
+
+    std::cout << "\nThe difference of the numbers is: " << difference << std::endl;
 
 }
 
