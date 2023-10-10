@@ -3,6 +3,20 @@
 
 void calculator_add(){
 
+    float FirstNumber;
+    float SecondNumber;
+    float sum;
+
+    std::cout << "Enter the first number you would like to add:";
+    std::cin  >> FirstNumber;
+
+    std::cout << "\nEnter the second number you would like to add:";
+    std::cin  >> SecondNumber;
+
+    sum = FirstNumber + SecondNumber;
+
+    std::cout << "\nThe sum of the numbers is: " << sum << std::endl;
+
 }
 
 void calculator_subtract(){
@@ -19,7 +33,7 @@ void calculator_divide(){
 
 void calculator_main(){
 
-    std::cout << "\nCalculator version 1.0";
+    std::cout << "\nCalculator v1.0.0";
 
     std::cout << "What would you like to do?\n(a)dd,\n(s)ubtract,\n(m)ultiply,\n(d)ivide,\n(e)exit:";
 
@@ -37,12 +51,11 @@ void calculator_main(){
 
     else {calculator_main();}
 }
-
 int main() {
 
     std::cout << "Welcome to the fourth C++ project of all time!\n\n";
 
-    std::cout << "Would you like to use a Calculator? (y/n):";
+    std::cout << "\nWould you like to use a Calculator? (y/n):";
     std::string calc_perm;
     std::cin  >> calc_perm;
 
