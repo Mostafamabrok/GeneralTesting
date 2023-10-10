@@ -39,9 +39,37 @@ void calculator_subtract(){
 
 void calculator_multiply(){
 
+    float FirstNumber;
+    float SecondNumber;
+    float product;
+
+    std::cout << "\nEnter the first number you would like to multiply:";
+    std::cin  >> FirstNumber;
+
+    std::cout << "\nEnter the second number you would like to multiply:";
+    std::cin  >> SecondNumber;
+
+    product = FirstNumber * SecondNumber;
+
+    std::cout << "\nThe product of the numbers is: " << product << std::endl;
+
 }
 
 void calculator_divide(){
+
+    float FirstNumber;
+    float SecondNumber;
+    float quotient;
+
+    std::cout << "\nEnter the first number you would like to divide:";
+    std::cin  >> FirstNumber;
+
+    std::cout << "\nEnter the second number you would like to divide:";
+    std::cin  >> SecondNumber;
+
+    quotient = FirstNumber/SecondNumber;
+
+    std::cout << "\nThe quotient of the numbers is: " << quotient << std::endl;
 
 }
 
