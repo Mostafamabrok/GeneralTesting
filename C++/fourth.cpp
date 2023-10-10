@@ -19,7 +19,7 @@ void calculator_divide(){
 
 void calculator_main(){
 
-    std::cout << "Calculator version 1.0";
+    std::cout << "\nCalculator version 1.0";
 
     std::cout << "What would you like to do?\n(a)dd,\n(s)ubtract,\n(m)ultiply,\n(d)ivide,\n(e)exit:";
 
@@ -34,7 +34,7 @@ void calculator_main(){
     if (action == 'e'){
         std::cout << "Exiting...\n\n";
     }
-    
+
     else {calculator_main();}
 }
 
