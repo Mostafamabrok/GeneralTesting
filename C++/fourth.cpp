@@ -15,7 +15,7 @@ void calculator_add(){
 
     sum = FirstNumber + SecondNumber;
 
-    std::cout << "\nThe sum of the numbers is: " << sum << std::endl;
+    std::cout << "\nThe sum is: " << sum << std::endl;
 
 }
 
@@ -33,7 +33,7 @@ void calculator_subtract(){
 
     difference = FirstNumber - SecondNumber;
 
-    std::cout << "\nThe difference of the numbers is: " << difference << std::endl;
+    std::cout << "\nThe difference is: " << difference << std::endl;
 
 }
 
@@ -51,7 +51,7 @@ void calculator_multiply(){
 
     product = FirstNumber * SecondNumber;
 
-    std::cout << "\nThe product of the numbers is: " << product << std::endl;
+    std::cout << "\nThe product is: " << product << std::endl;
 
 }
 
@@ -69,7 +69,7 @@ void calculator_divide(){
 
     quotient = FirstNumber/SecondNumber;
 
-    std::cout << "\nThe quotient of the numbers is: " << quotient << std::endl;
+    std::cout << "\nThe quotient is:" << quotient << std::endl;
 
 }
 
@@ -77,7 +77,7 @@ void calculator_main(){
 
     std::cout << "\nCalculator v1.0.0";
 
-    std::cout << "What would you like to do?\n(a)dd,\n(s)ubtract,\n(m)ultiply,\n(d)ivide,\n(e)exit:";
+    std::cout << "\nWhat would you like to do?\n(a)dd,\n(s)ubtract,\n(m)ultiply,\n(d)ivide,\n(e)exit\n:\n";
 
     char action;
     std::cin >> action;
@@ -93,6 +93,7 @@ void calculator_main(){
 
     else {calculator_main();}
 }
+
 int main() {
 
     std::cout << "Welcome to the fourth C++ project of all time!\n\n";
@@ -101,9 +102,7 @@ int main() {
     std::string calc_perm;
     std::cin  >> calc_perm;
 
-    if (calc_perm == "y"){
-    calculator_main();
-}
+    if (calc_perm == "y"){calculator_main();}
 
     return 0;
 }
