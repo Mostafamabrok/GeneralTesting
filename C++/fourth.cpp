@@ -77,7 +77,7 @@ void calculator_main(){
 
     std::cout << "\nCalculator v1.0.0";
 
-    std::cout << "\nWhat would you like to do?\n(a)dd,\n(s)ubtract,\n(m)ultiply,\n(d)ivide,\n(e)exit\n:\n";
+    std::cout << "\nWhat would you like to do?\n(a)dd,\n(s)ubtract,\n(m)ultiply,\n(d)ivide,\n(e)exit\n:";
 
     char action;
     std::cin >> action;
