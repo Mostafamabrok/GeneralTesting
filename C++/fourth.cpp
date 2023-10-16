@@ -87,9 +87,7 @@ void calculator_main(){
     if (action == 'm' ){calculator_multiply();}
     if (action == 'd' ){calculator_divide();}
 
-    if (action == 'e'){
-        std::cout << "Exiting...\n\n";
-    }
+    if (action == 'e'){std::cout << "Exiting...\n\n";}
 
     else {calculator_main();}
 }
