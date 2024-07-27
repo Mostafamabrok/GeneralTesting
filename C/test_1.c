@@ -14,7 +14,7 @@ int main() {
 
   }
   else {
-    printf("\n\nYour number is not greater than %d", comparison_variable);
+    printf("\n\nYour number is not greater than %d.", comparison_variable);
   }
 
 
