@@ -1,3 +1,6 @@
 fourth.exe
 C++/a.out
 images
+*.exe
+*.out
+*.io
