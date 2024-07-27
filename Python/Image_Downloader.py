@@ -3,7 +3,7 @@ from bing_image_downloader import downloader
 
 image_path = "Images"
 
-skin_problems = ["Eye Bags", " Oily Skin", "Acne", "Forehead Wrinkles", "Face Redness", "Under Eye Wrinkles"]
+skin_problems = ["Face Redness Image"]
 
 def setup_file_enviroment():
     for skin_problem in skin_problems:
@@ -20,5 +20,5 @@ else:
     setup_file_enviroment()
 
 for skin_problem in skin_problems:
-    downloader.download(skin_problem, limit=100, output_dir=image_path+"/"+skin_problem, adult_filter_off=False, force_replace=False, timeout=60, verbose=True)
+    downloader.download(skin_problem, limit=500, output_dir=image_path+"/"+skin_problem, adult_filter_off=False, force_replace=False, timeout=60, verbose=True)
 
